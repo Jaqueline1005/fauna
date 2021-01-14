@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Reservas naturales</title>
+
+<link href="estilo.css" rel="stylesheet" type="text/css"/>
+
+<!-- primeron vinculamos los css definidos -->
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css">
+<!-- fin del css-->
+
+<!-- librerias jquery -->
+<script src="jquery-1.6.1.min.js" type="text/javascript"></script>
+<script src="jquery.nivo.slider.js" type="text/javascript"></script>
+<script src="SpryAccordion.js" type="text/javascript"></script>
+  
+  <!-- fin librerias jquery -->
+
+<script src="swfobject_modified.js" type="text/javascript"></script>
+</head>
+
+<body>
+<div id="contenido">
+  
+  <div id="Accordion1" class="Accordion" tabindex="0">
+      <div class="AccordionPanel">
+        <div class="AccordionPanelTab">Cabo de la vela</div>
+        <div class="AccordionPanelContent">Es un accidente costero al sur del mar Caribe; se encuentra situado en el extremo norte de Suramérica, específicamente en la península de la Guajira en Colombia. La parte norte posee una altura de 47 msnm.</div>
+      </div>
+      <div class="AccordionPanel">
+        <div class="AccordionPanelTab">Paramillo del quindio</div>
+        <div class="AccordionPanelContent">El Paramillo del Quindio es una montaña rocosa de gran altura que en temporadas invernales puede estar cubierta de nieves temporales. Siendo este un nevado extinto (como el Paramillo del cisne y Santa Rosa) es un ejemplo mas del calentamiento global. Hace decenas de años (desde 1960 según los libros y desde 1975 según los lugareños) perdió sus nieves perpetuas que abastecían el cañón del rio Quindio y la ahora también extinta Laguna la Leona.</div>
+    </div>
+        
+        <div class="AccordionPanel">
+        <div class="AccordionPanelTab">Parque Tayrona</div>
+        <div class="AccordionPanelContent">Se encuentra ubicado en la Región Caribe en Colombia. Su superficie hace parte del departamento de Magdalena.
+
+A 34 km de la ciudad de Santa Marta es uno de los parques naturales más importantes de Colombia. Es hábitat de una gran cantidad de especies que se distribuyen en regiones con diferentes pisos térmicos que van desde el nivel del mar hasta alturas de 900 m.
+
+De las 15.000 hectáreas que conforman el parque, 3.000 son área marina.</div>
+        </div>
+        
+        <div class="AccordionPanel">
+        <div class="AccordionPanelTab">Parque Nacional Natural Serranía de Chiribiquete</div>
+        <div class="AccordionPanelContent">La Sierra de Chiribiquete ó Serranía de Chiribiquete, es una meseta rocosa en la región amazónica colombiana originada a partir del Escudo Guayanés. Con el conjunto de la Sierra de Naquén y la Serranía de la Macarena, son los sistemas montañosos más importantes de la Amazonia colombiana.</div>
+      </div>
+  </div>
+  
+  <div id="animacion">
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="550" height="400" align="middle" id="FlashID" title="Paisajes">
+      <param name="movie" value="paisajes.swf" />
+      <param name="quality" value="high" />
+      <param name="wmode" value="opaque" />
+      <param name="swfversion" value="10.1.0.0" />
+      <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
+      <param name="expressinstall" value="expressInstall.swf" />
+      <param name="BGCOLOR" value="#FFFFFF">
+      <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
+      <!--[if !IE]>-->
+      <object data="paisajes.swf" type="application/x-shockwave-flash" width="550" height="400" align="middle">
+        <!--<![endif]-->
+        <param name="quality" value="high" />
+        <param name="wmode" value="opaque" />
+        <param name="swfversion" value="10.1.0.0" />
+        <param name="expressinstall" value="expressInstall.swf" />
+        <param name="BGCOLOR" value="#FFFFFF">
+        <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
+        <div>
+          <h4>El contenido de esta página requiere una versión más reciente de Adobe Flash Player.</h4>
+          <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtener Adobe Flash Player" width="112" height="33" /></a></p>
+        </div>
+        <!--[if !IE]>-->
+      </object>
+      <!--<![endif]-->
+    </object>
+  </div>
+</div>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>
+
+<script type="text/javascript">
+var Accordion1 = new Spry.Widget.Accordion("Accordion1");
+</script>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+@charset "utf-8";
+/* CSS Document */
+#todo{
+	width: 900px;
+	height: auto;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	text-align: left;
+	}
+	
+	a{
+		text-decoration:none;
+	}
+	body{
+		
+		background-image:url(colombia.jpg);
+		background-attachment:fixed;
+	 }
+	
+	
+	
+	#banner{
+		width:900px;
+		height:140px;
+		background-color:#CFF;
+	}
+	
+		#menus{
+	width: 900px;
+	height: 50;
+	background-color: #9F9;
+	text-align: center;
+	font-family: "Edifice Thin";
+	font-style: inherit;
+	font-weight: 400;
+	font-size: 18px;
+		}
+		
+		#inicio{
+	width: 300px;
+	height: 50px;
+	text-align: center;
+	padding-top: 10px;
+	display: block;
+	}
+	
+		#inicio:hover{
+			background:#9CF;
+		}
+	
+	
+	#parques{
+	width: 300px;
+	height: 50px;
+	margin-top: -60px;
+	margin-left: 300px;
+	padding-top: 10px;
+	display: block;
+	
+		}
+		
+		#parques:hover{
+			background:#9CF;
+		}
+		
+		#fauna{
+	width: 305px;
+	height: 50px;
+	margin-top: -60px;
+	margin-left: 600px;
+	padding-top: 10px;
+	display: block;
+		}
+		
+		#fauna:hover{
+			background:#9CF;
+		}
+				
+		#contenido{
+			
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	text-align: center;	
+	width: 900px;
+	height: auto;
+	background-color: #9FF;
+	text-align: center;
+	font-family: 'Edifice Thin';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+		}
+		
+		#parrafos{
+			text-align: justify; 
+			font-size: 18px;
+		}
+		
+		#bener{
+		width:900px;
+		height:350px;
+	}
+	
+	#video{
+		width:900px;
+		height:auto;
+	}
+		
+		#pie{
+	width: 900px;
+	height: 100px;
+	text-align: center;
+	font-family: "Lucida Handwriting";
+	background-color: #FFF;
+	background-color: #9F9;
+}
+		
+		
